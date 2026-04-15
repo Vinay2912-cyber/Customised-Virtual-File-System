@@ -89,24 +89,20 @@ Once started, the shell accepts the following commands:
 ![CVFS Example Session](docs/Final_Run_Exe.png)
 
 ```sh
-Abhishek Atole CVFS :> creat test 3
+Vinay rai CVFS :> creat test 3
 File is successfully created with file descriptor : 0
 
-Abhishek Atole CVFS :> write test
+Vinay Rai CVFS :> write test
 Enter the data to write file :
 Hello, CVFS!
 13 bytes gets written successfully in the file
 
-Abhishek Atole CVFS :> read test 13
+Vinay Rai CVFS :> read test 13
 Hello, CVFS!
 
-Abhishek Atole CVFS :> ls
+Vinay Rai CVFS :> ls
 File Name   Inode number   File iSize   Link iCount
 test        1              13           1
-
-Abhishek Atole CVFS :> exit
-Thank-you for using My Virtual File System
-```
 
 ---
 
